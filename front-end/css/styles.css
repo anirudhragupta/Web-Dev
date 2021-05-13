@@ -1,0 +1,28 @@
+hr{
+    /* turning hr to a border */
+    /* height of box of the element */
+    height: 0px;
+    /* background-color: black; */
+    /* 20% of total web page */
+    width: 5%;
+    border-style: dotted none none none;
+    border-color: grey;
+    border-width: 6px;
+}
+body{
+    background-color: rebeccapurple;
+}
+
+h1{
+    color: #66bfbf;
+}
+
+h2{
+    color: #66bfbf;
+    font-family: cursive;
+}
+
+table.center{
+    margin-left: auto;
+    margin-right: auto; 
+}
