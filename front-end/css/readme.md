@@ -1,1 +1,0 @@
-<h1> CSS practice </h1>
