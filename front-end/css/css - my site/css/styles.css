@@ -1,0 +1,50 @@
+.top-container{
+    background-color:#f0ebcc;
+    padding: 10px;
+}
+
+h1{
+    margin: 0;
+    border: solid 5px;
+    /* border: solid*/
+    /* default 3px border over the box */
+    border-color: blueviolet;
+}
+
+body{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.middle-container{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    /* margin: 10px; */
+    display: inline-block;
+    visibility: hidden;
+}
+
+.bottom-container{
+    height: 200px;
+    width: 200px;
+    background-color: cyan;
+    display: inline-block;
+    visibility: hidden;
+}
+
+.underline{
+    text-decoration: underline;
+    /* text-decoration: wavy; */
+}
+
+.mid-img{
+    padding: 10px;
+    width: 70%;
+    height: 50%;
+    display: block;
+    border: solid 4px #e93b81;
+    position: relative;
+    top : 20px; /* position from top of its static position */
+}
