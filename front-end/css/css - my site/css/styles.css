@@ -12,21 +12,63 @@ body{
     position: relative;
     text-align: center;
     padding-top: 100px;
+    line-height: 2;
 }
 
 .subtitle{
     font-family: 'Sacramento', cursive;
     font-size: 2.5rem; /*equivalent to 40px, as 1rem or em is 16px*/
     margin-top: 5px;
+    font-weight: normal;
+}
+
+h1{
+    color: #66bfbf;
 }
 
 h2{
-
+    color: #66bfbf;
 }
 
-.center{
-    margin: 0 auto 0 auto;
+h3{
+    color: #11999e;
+    /* text-align: left; */
 }
+
+/* p{
+    text-align: left;
+} */
+
+a{
+    color: #11999e;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+    font-size: 1.2rem;
+}
+.center-img1{
+    /* margin: 0 auto; */
+    /* display: block; */
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.center-img2{
+    /* margin: 0 auto; */
+    /* display: block; */
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.desp1{
+    clear: left;
+}
+/* .desp2{
+    clear: right;
+} */
 
 .cloud1{
     position: absolute;
