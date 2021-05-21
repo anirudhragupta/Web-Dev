@@ -1,6 +1,11 @@
+a{
+    text-decoration: none;
+    color: #11999E;
+}
 
 body{
     margin: 0;
+    text-align: center;
 }
 
 .bottom-container{
@@ -10,7 +15,7 @@ body{
     background-color: #66BFBF;
     margin-top: 40px;
     font-size: 1.2em;
-    font-weight: bolder;
+    /* font-weight: bolder; */
 }
 
 .btn {
@@ -44,6 +49,19 @@ body{
     text-decoration: none;
 }
 
+.comp{
+    width: 10em;
+    margin-right: 20px;
+    float: left;
+}
+
+.chilly{
+    width: 10em;
+    float: right;
+    margin-left: 20px;
+    /* display: inline-block; */
+}
+
 .cloud1{
     position: absolute;
     right: 400px;
@@ -56,22 +74,57 @@ body{
     left: 400px;
 }
 
-.desp{
-    width: 30%;
-    display: inline-block;
+
+.desp1{
+    /* width: 60%; */
+    
+    /* margin: 10px auto; */
+    /* clear: left; */
+    /* display: inline-block; */
+}
+
+.desp2{
+    /* width: 60%; */
+    
+    /* display: inline-block; */
 }
 
 .desp-last{
     width: 30%;
-    display: block;
+    /* display: block; */
     margin: 0 auto 20px auto;
-    clear: right;
+    /* clear: right; */
 }
 
+.skills{
+    width: 40%;
+    margin: 40px auto;
+    text-align: left;
+    line-height: 2;
+    /* text-align: center; */
+}
 
+.fst{
+    margin: 60px auto;
+}
 
 .footer{
     color: #EAF6F6;
+}
+
+.footer-link{
+    margin: 10px 20px;
+}
+
+hr{
+    /* margin: 1px 0 0 0; */
+    border-width: 8px;
+    border-bottom: 0;
+    /* border-spacing: 2px; */
+    border-style: dotted;
+    width: 3%;
+    color: #EAF6F6;
+    
 }
 
 h1{
@@ -86,19 +139,27 @@ h3{
     color: #11999E;
 }
 
-a{
-    color: #11999E;
-}
+
 
 .mid-container{
     text-align: center;
 }
 
 .name{
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
     width: 20%;
     /* position: absolute; */
     /* display: inline-block; */
     margin: 0px auto 5px auto;
+}
+
+p{
+    color: #40514E;
+}
+
+.pro{
+    text-decoration: underline;
 }
 
 .top-container{
