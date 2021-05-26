@@ -20,3 +20,16 @@ var pic1 = "images/" + dicePick(randomNumber1);
 var pic2 = "images/" + dicePick(randomNumber2);
 document.querySelector(".img1").setAttribute("src", pic1);
 document.querySelector(".img2").setAttribute("src", pic2);
+
+
+
+if(randomNumber1 > randomNumber2){
+    document.querySelector("h1").classList.add("p1");
+    document.querySelector("h1").textContent="Player 1 won! 🏁";
+}else if(randomNumber1 === randomNumber2){
+    document.querySelector("h1").classList.add("tie");
+    document.querySelector("h1").textContent="TIED!";
+}else{
+    document.querySelector("h1").classList.add("p2");
+    document.querySelector("h1").textContent="Player 2 won! 🏁";
+}
