@@ -3,8 +3,8 @@ var numOfDrums = (document.querySelectorAll(".drum").length);
 //for button clicks
 for(var i=0;i<numOfDrums;i++){
     document.querySelectorAll("button")[i].addEventListener("click", function () {
-        
         makeSound(this.innerHTML);
+        btnAnimation(this.innerHTML);
         //this.style.color = "white";
         /* var drumAudio = new Audio("sounds/tom-1.mp3");
         drumAudio.play();*/
@@ -13,8 +13,9 @@ for(var i=0;i<numOfDrums;i++){
 
 //to capture key strokes
 document.addEventListener("keydown", function(eve){
-    console.log(eve.key);
+    //console.log(eve.key);
     makeSound(eve.key);
+    btnAnimation(eve.key);
 });
 
 //making sound
@@ -58,4 +59,13 @@ function makeSound(keys){
         default:
             console.log(this.innerHTML);
     }
+}
+
+function btnAnimation(key){
+    var anim = document.querySelector("." + key);
+    anim.classList.add("pressed");
+
+    setTimeout(function (){
+        anim.classList.remove("pressed", 1000);
+    })
 }
